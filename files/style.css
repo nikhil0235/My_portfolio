@@ -1003,31 +1003,33 @@ body {
 
     /*home*/
     .home{
+        margin-top: 100px;
         align-items: normal;
-        padding-top: 40%;
+        padding-top: 5%;
         padding-bottom: 0;
     }
+    
     .home-content h1 {
         font-size: 40px;
         font-weight: 600;
     }
     
     .home-content h3 {
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 300;
     }
     
     .home-content h4 {
-        font-size: 18px;
+        font-size: 30px;
         font-weight: 200;
     }
     
     .home-content h4 span {
-        font-size: 18px;
+        font-size: 45px;
         font-weight: 200;
     }
     .img{
-        max-width: 400px;
+        width: 250px;
         position: relative;
         left: -0%;
         top: 2%;
@@ -1055,7 +1057,11 @@ body {
         margin-bottom: 4rem;
         text-align: left;
     }
+    .btn-box{
+        margin-top: 30px;
+    }
     .abtbtn-box:hover {
+
         box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
     }
 
@@ -1071,28 +1077,13 @@ body {
         margin-left: 50px;
     }
     .container2 {
-        margin-top: 160px;
+        margin-top: 100px;
         width: 600px;
         max-height: 500px;
         padding: 10px;
         margin-left: 0px;
     }
-    .bar .info .addhtml::before{
-        content: "90%";
-    }
-    .bar .info .addcss::before{
-        content: "80%";
-    }
-    .bar .info .addpy::before{
-        content: "75%";
-    }
-    .bar .info .addjava::before{
-        content: "50%";
-    }
-    .bar .info .addc::before{
-        content: "50%";
-    }
-
+   
     /*project*/
     .main-text {
         padding-top: 20px;
@@ -1214,7 +1205,9 @@ body {
         font-size: 30px;
         letter-spacing: 5px;
     }
-    
+    .btn-box{
+        margin-top: 30px;
+    }
     .about-text p {
         font-size: 15px;
         line-height: normal;
@@ -1244,25 +1237,7 @@ body {
         padding: 10px;
         margin-left: 0px;
     }
-    .radial-bar .text{
-        left: 15%;
-    }
-    .bar .info .addhtml::before{
-        content: "90%";
-    }
-    .bar .info .addcss::before{
-        content: "80%";
-    }
-    .bar .info .addpy::before{
-        content: "75%";
-    }
-    .bar .info .addjava::before{
-        content: "50%";
-    }
-    .bar .info .addc::before{
-        content: "50%";
-    }
-
+    
     /*project*/
     .main-text {
         padding-top: 02px;
