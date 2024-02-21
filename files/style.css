@@ -573,6 +573,7 @@ body {
     cursor: pointer;
     padding: 0px;
     overflow: hidden;
+    margin-bottom: 12px;
     
 }
 
@@ -971,7 +972,7 @@ body {
 
 @media (max-width: 700px) and (min-width: 400px) {
     *{
-        overflow-x: hidden;
+        overflow-x: ;
         overflow-y: inherit;
     }
     /*navbar*/
@@ -1028,7 +1029,7 @@ body {
     .img{
         max-width: 400px;
         position: relative;
-        left: -10%;
+        left: -0%;
         top: 2%;
         padding-bottom: 30px;
         padding-left: 0;
@@ -1070,6 +1071,7 @@ body {
         margin-left: 50px;
     }
     .container2 {
+        margin-top: 160px;
         width: 600px;
         max-height: 500px;
         padding: 10px;
@@ -1137,7 +1139,7 @@ body {
 
 @media (max-width: 400px) {
     *{
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
     .header{
         display:block;
@@ -1195,7 +1197,7 @@ body {
     .img{
         max-width: 300px;
         position: relative;
-        left: -10%;
+        left: -0%;
         top: 2%;
         padding-bottom: 30px;
         padding-left: 0;
@@ -1236,13 +1238,14 @@ body {
         margin-left: 50px;
     }
     .container2 {
+        margin-top: 220px;
         width: 600px;
         max-height: 500px;
         padding: 10px;
         margin-left: 0px;
     }
     .radial-bar .text{
-        left: 25%;
+        left: 15%;
     }
     .bar .info .addhtml::before{
         content: "90%";
@@ -1262,7 +1265,7 @@ body {
 
     /*project*/
     .main-text {
-        padding-top: 20px;
+        padding-top: 02px;
         margin-top: 10px;
         padding-bottom: 50px;
     }
